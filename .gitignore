@@ -1,0 +1,28 @@
+data/*
+!data/.gitkeep
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Flask specific
+instance/
+.env
+
+
+# VS Code (se você usar)
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Virtual env (ajuste se o nome for diferente)
+venv/
+.env/
