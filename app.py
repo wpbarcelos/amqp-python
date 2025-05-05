@@ -1,3 +1,4 @@
+from doctest import debug
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -13,4 +14,4 @@ if __name__ == '__main__':
     
     init_db.init_db()    
     print('Server is running...')
-    app.run()
+    app.run('0.0.0.0',debug=True)

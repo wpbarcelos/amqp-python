@@ -24,7 +24,7 @@ def send():
         return jsonify(response), 200
     except Exception as e:
         return jsonify({ 'error': str(e), 'status': "Ocorreu um erro ao enviar mensagem."}), 500
-    
+
 
 @app.route('/documento/<contexto>/<doc_id>', methods=['GET'])
 def get_document(contexto, doc_id):
