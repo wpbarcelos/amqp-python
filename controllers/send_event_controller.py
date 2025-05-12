@@ -31,4 +31,4 @@ def send_event(id, texto_original):
     except Exception as e:
         
         print(f"Erro ao enviar evento: {e}")
-
+        raise
